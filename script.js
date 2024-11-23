@@ -21,7 +21,7 @@ function indexOfIgnoreCase(s1, s2) {
 					  i++;
 					  j++;
 				  }	 
-			  if(j>l2)
+			  if(j===l2)
 			  {
 				  ans=p;
 				  break;
