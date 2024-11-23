@@ -16,7 +16,7 @@ function indexOfIgnoreCase(s1, s2) {
 		  {
 			  let j=0;
 			  let p=i;
-			  while(i<l1 && j<l2 && s1.charAt(i).toUpperCase()===s2.charAt(0).toUpperCase())
+			  while(i<l1 && j<l2 && s1.charAt(i).toUpperCase()===s2.charAt(j).toUpperCase())
 				  {
 					  i++;
 					  j++;
